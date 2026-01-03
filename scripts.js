@@ -1,97 +1,102 @@
-$(document).ready(function () {
 
-  $(document).on("click", ".no", function () {
-    $('#f1').hide();
-    $('#f2').css('display', 'flex');
+ $('.no').on("click", function(){ 
+  $('#f1').css('display', 'none');
+  $('#f2').css('display', 'flex');  
   });
 
-  $(document).on("click", ".weno", function () {
-    $('#f2').hide();
-    $('#f1').css('display', 'flex');
+  $('.weno').on("click", function(){ 
+  $('#f2').css('display', 'none');
+  $('#f1').css('display', 'flex');  
   });
 
-  $(document).on("click", ".si", function () {
-    $('#f1').hide();
-    $('#f3').css('display', 'flex');
+  $('.si').on("click", function(){ 
+  $('#f1').css('display', 'none');
+  $('#f3').css('display', 'flex');  
   });
 
-  $(document).on("click", ".dale", function () {
-    $('#f3').hide();
-    $('#f4').css('display', 'flex');
+  $('.dale').on("click", function(){ 
+  $('#f3').css('display', 'none');
+  $('#f4').css('display', 'flex');  
   });
 
-  $(document).on("click", ".rega", function () {
-    $('#f4').hide();
-    $('#f5').css('display', 'flex');
+  $('.rega').on("click", function(){ 
+  $('#f4').css('display', 'none');
+  $('#f5').css('display', 'flex');  
   });
 
-  $(document).on("click", ".ojo", function () {
-    $('#f5').hide();
-    $('#f6').css('display', 'flex');
+  $('.ojo').on("click", function(){ 
+  $('#f5').css('display', 'none');
+  $('#f6').css('display', 'flex');  
   });
 
-  $(document).on("click", ".afi", function () {
-    $('#f6').hide();
-    $('#f7').css('display', 'flex');
-    $('#f8').css('display', 'flex');
+$('.ojo').on("click", function(){ 
+  $('#f5').css('display', 'none');
+  $('#f6').css('display', 'flex');  
   });
 
-  $(document).on("click", ".salu", function () {
-    $('#f8').hide();
-    $('#f9').css('display', 'flex');
+$('.afi').on("click", function(){ 
+  $('#f6').css('display', 'none');
+  $('#f7').css('display', 'flex');
+    $('#f8').css('display', 'flex');  
   });
 
-  $(document).on("click", ".copy", function () {
-    $('#f9').hide();
-    $('#f10, #f11').css('display', 'flex');
+$('.salu').on("click", function(){ 
+  $('#f8').css('display', 'none');
+  $('#f9').css('display', 'flex');  
   });
 
-  $(document).on("click", "span.go", function () {
-    $('#f13').hide();
-    $('#f14').css('display', 'block');
+$('.copy').on("click", function(){ 
+  $('#f9').css('display', 'none');
+  $('#f10').css('display', 'flex');          $('#f11').css('display', 'flex');
   });
 
-  $(document).on("click", ".ca1", function () {
-    $('#f12').css('display', 'flex');
-    $('#f13').css('display', 'block');
+$('span.go').on("click", function(){ 
+  $('#f13').css('display', 'none');
+  $('#f14').css('display', 'block');   
   });
 
-  $(document).on("click", ".ca3", function () {
-    $('#f15').css('display', 'block');
-    $('#f16').css('display', 'flex');
+$('.ca1').on("click", function(){ 
+  $('#f12').css('display', 'flex'); 
+  $('#f13').css('display', 'block'); 
   });
 
-  $(document).on("click", ".ca2", function () {
-    $('#f18').css('display', 'block');
-    $('#f19').css('display', 'flex');
+$('.ca3').on("click", function(){ 
+  $('#f15').css('display', 'block'); 
+  $('#f16').css('display', 'flex'); 
   });
 
-  $(document).on("click", ".carta", function () {
-    $('#f12').hide();
+$('.ca2').on("click", function(){ 
+  $('#f18').css('display', 'block'); 
+  $('#f19').css('display', 'flex'); 
   });
 
-  $(document).on("click", ".anillo", function () {
-    $('#f16').hide();
-    $('#f17').css('display', 'flex');
+$('.carta').on("click", function(){ 
+  $('#f12').css('display', 'none'); 
+  });
+ 
+$('.anillo').on("click", function(){ 
+  $('#f16').css('display', 'none');
+   $('#f17').css('display', 'flex');
+  
   });
 
-  $(document).on("click", ".marry", function () {
-    $('#f15, #f17').hide();
+$('.marry').on("click", function(){ 
+  $('#f15').css('display', 'none');
+  $('#f17').css('display', 'none');
+  });
+ 
+$('.meme').on("click", function(){ 
+  $('#f19').css('display', 'none');
+  $('#f20').css('display', 'flex');
   });
 
-  $(document).on("click", ".meme", function () {
-    $('#f19').hide();
-    $('#f20').css('display', 'flex');
+$('.meme2').on("click", function(){ 
+  $('#f20').css('display', 'none');
+  $('#f21').css('display', 'flex');
   });
 
-  $(document).on("click", ".meme2", function () {
-    $('#f20').hide();
-    $('#f21').css('display', 'flex');
+$('.yes').on("click", function(){ 
+  $('#f21').css('display', 'none');
+  $('#f22').css('display', 'flex');
   });
-
-  $(document).on("click", ".yes", function () {
-    $('#f21').hide();
-    $('#f22').css('display', 'flex');
-  });
-
-});
+ 
